@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -11,9 +11,45 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} */
+
+
+/* Adding css to nav-bar */
+.nav-ul{
+  margin-top:-0.3%;
+  background-color:black;
 }
 
-.App-header {
+.nav-ul li{
+  display: inline-block;
+  padding:1rem 2rem;
+}
+
+.nav-link{
+  color:white;
+  font-size:1.1rem;
+  text-decoration: none;
+}
+
+
+/* Inputs in signUp */
+.input-sec{
+  display:block;
+  height:3rem;
+  width:30rem;
+  margin-left:30%;
+  margin-bottom:2%;
+}
+
+.input-btn{
+  height:2rem;
+  width:10rem;
+  margin-left:40%;
+  margin-bottom:2%;
+}
+
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +71,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
